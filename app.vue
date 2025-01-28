@@ -3,6 +3,9 @@ useHead({
   bodyAttrs: {
     class: 'bg-black'
   },
+  meta: [
+    { name: 'theme-color', content: '#1d2030' }
+  ],
   link: [
     { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' },
     { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
@@ -26,7 +29,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="flex flex-col h-[100vh] text-white items-start text-md">
+  <div class="flex flex-col h-[100dvh] text-white items-start text-md">
     <Logo class="w-full md:w-auto md:h-[10rem]" />
 
     <div class="p-site mt-auto">
