@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      'IBM+Plex+Sans': [500]
+      'IBM+Plex+Sans': [300, 500]
     }
   }
 })

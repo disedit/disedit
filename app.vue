@@ -26,20 +26,22 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="flex flex-col h-[100vh] p-site text-white items-start text-md">
-    <Logo class="w-full md:w-auto md:h-[9rem]" />
+  <div class="flex flex-col h-[100vh] text-white items-start text-md">
+    <Logo class="w-full md:w-auto md:h-[10rem]" />
 
-    <p class="mt-auto text-xl text-balance leading-[1.1]">
-      We develop <span class="text-blue">custom-made digital tools
-        <br class="hidden md:block">
-        and websites</span> for organizations and non-profits.
-    </p>
+    <div class="p-site mt-auto">
+      <p class="text-xl text-balance leading-[1.1]">
+        We develop <span class="text-blue">custom-made digital tools
+          <br class="hidden md:block">
+          and websites</span> for organizations and non-profits.
+      </p>
 
-    <p class="mt-6">
-      Get in touch with us at
-      <a href="mailto:info@disedit.com" class="text-orange hover:underline">
-        info@disedit.com
-      </a>
-    </p>
+      <p class="mt-6 font-light">
+        Get in touch with us at
+        <a href="mailto:info@disedit.com" class="text-orange hover:underline">
+          info@disedit.com
+        </a>
+      </p>
+    </div>
   </div>
 </template>
